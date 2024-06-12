@@ -1,0 +1,196 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.box1{
+    background-color: rgb(57, 9, 170);
+    width: 320px;
+    height: 400px;
+    border: transparent 1px solid;
+    border-radius: 5%;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border: transparent 1px solid;
+    border-radius: 50%;
+    background-color: rgb(2, 2, 115);
+    position: relative;
+    left: 20%;
+}
+.circle h1{
+    position: relative;
+    left: 40%;
+    top: 25%;
+    color: white;
+    font-size: 40px;
+}
+.circle p{
+    color: #868585;
+    position: relative;
+    left: 40%;
+    top: 40px;
+}
+.box1 .b{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 33%;
+}
+.m{
+    color: white;
+    position: relative;
+    left: 15px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background-color: rgb(235, 232, 232);
+}
+.b1,.b2,.b3,.b4{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.b1{
+    background-color: rgba(179, 21, 137, 0.21);
+    border: transparent 1px solid;
+    border-radius: 5px;
+}
+.b1 i{
+    color: red;
+    size: 100px;
+    font-size: 25px;
+    position: relative;
+    top: 40%;
+    left: 5px;
+    z-index: 999;
+}
+.b1 h2{
+    color: rgb(129, 4, 4);
+    position: relative;
+    left: 15px;
+    top: 10%;
+}
+.b1 p{
+    position: relative;
+    left: 40%;
+    top: 20%;
+    font-size: 20px;
+    color: #928f8f;
+}
+.b1 span{
+    color: black;
+    font-weight: bold;
+}
+.b2{
+    background-color: rgba(255, 255, 0, 0.214);
+    border: transparent 1px solid;
+    border-radius: 5px;
+}
+.b2 i{
+    color: yellow;
+    size: 100px;
+    font-size: 25px;
+    position: relative;
+    top: 40%;
+    left: 5px;
+    z-index: 999;
+}
+.b2 h2{
+    color: rgb(128, 128, 5);
+    position: relative;
+    left: 15px;
+    top: 10%;
+}
+.b2 p{
+    position: relative;
+    left: 40%;
+    top: 20%;
+    font-size: 20px;
+    color: #928f8f;
+}
+.b2 span{
+    color: black;
+    font-weight: bold;
+}
+.b3{
+    background-color: rgba(0, 128, 0, 0.278);
+    border: transparent 1px solid;
+    border-radius: 5px;
+}
+.b3 i{
+    color: green;
+    size: 100px;
+    font-size: 25px;
+    position: relative;
+    top: 40%;
+    left: 5px;
+    z-index: 999;
+}
+.b3 h2{
+    color: green;
+    position: relative;
+    left: 15px;
+    top: 10%;
+}
+.b3 p{
+    position: relative;
+    left: 40%;
+    top: 20%;
+    font-size: 20px;
+    color: #928f8f;
+}
+.b3 span{
+    color: black;
+    font-weight: bold;
+}
+.b4{
+    background-color: rgba(137, 43, 226, 0.247);
+    border: transparent 1px solid;
+    border-radius: 5px;
+}
+.b4 i{
+    color: blueviolet;
+    size: 100px;
+    font-size: 25px;
+    position: relative;
+    top: 40%;
+    left: 5px;
+    z-index: 999;
+}
+.b4 h2{
+    color: blueviolet;
+    position: relative;
+    left: 15px;
+    top: 10%;
+}
+.b4 p{
+    position: relative;
+    left: 40%;
+    top: 20%;
+    font-size: 20px;
+    color: #928f8f;
+}
+.b4 span{
+    color: black;
+    font-weight: bold;
+}
+button{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    top: 340px;
+    left: -270px;
+    border: transparent 1px solid;
+    border-radius: 50%;
+    background-color: rgb(6, 6, 96);
+    color: white;
+    font-size: 20px;
+}
